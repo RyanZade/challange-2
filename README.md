@@ -10,7 +10,7 @@ CSS files were used for site accessabilty and looks.
       - Images
       - CSS file
 
-The HTML file should be accessable from the https link: https://github.com/RyanZade/challange-2.git
+The HTML file should be accessable from the https link: https://ryanzade.github.io/challange-2/
 
 ![screenshot](./assets/images/screenshot.png "Screenshot")
 
