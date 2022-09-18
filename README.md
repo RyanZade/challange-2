@@ -1,4 +1,4 @@
-# Horiseon-Challenge-1
+# Mini Project 2
 The challenge required students view a potential employee's deployed portfolio of work samples.
 
 The html shows a page called portfolio that shows contacts and a few 
