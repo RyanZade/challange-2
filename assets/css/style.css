@@ -1,0 +1,196 @@
+:root{
+   background-color: yellow; 
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+body{
+    background-color: rgb(112, 137, 138);
+}
+
+main{
+    padding-right: 25%;
+    padding-left: 25%;
+}
+
+
+
+main div section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+header {
+    color: white;
+    text-align: center;
+    background-color: rgb(43, 42, 54);
+}
+
+
+div {
+    padding: 5px;
+    text-align: center;
+}
+
+.mycontent {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    list-style: none;
+}
+
+
+header div ul li{
+    justify-content: space-evenly;
+    padding: 60px 100px;
+    flex-wrap: wrap;
+    display: inline-flex;
+    flex: 1 0 4;
+    flex-direction: row;
+}
+
+section div header{
+    border-color: aliceblue;
+    border: 3px;
+    border-radius: 15px;
+    border-style: solid;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+section ul{
+    list-style: none;
+}
+
+
+.mywork {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+    color: #ffffff;
+
+}
+
+.myworkbox{
+    background-color: black;
+    list-style: none
+}
+
+.contactme {
+    padding: 50px;
+    flex: row;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+} 
+
+.contactlist {
+    list-style: none;
+}
+
+footer ul li{
+    justify-content: space-between;
+    padding: 60px;
+    flex-wrap: nowrap;
+    display: inline-flex;
+    flex: content;
+}
+
+.float-center{
+    flex-wrap: wrap;
+    width: 250px;
+    height: 250px;
+}
+
+#two{
+    background:url(../images/pexels-oleksandr-pidvalnyi-1227513.jpg);
+    background-size:cover;
+    
+}
+
+  .welcomeDiv {
+    width:100%; 
+    height:350px; 
+    background:url(../images/1.jpg); 
+    text-align: center;
+    background-size: cover;
+}
+  .WelcomeP {background: rgba(0,0,0,0.5); margin-top:175px; width:100%}
+  .FirstTable {width:100%;}
+  .FirstTable td {width:33.3%;}
+
+  .firstWork{
+    border: 5px solid blueviolet;
+    background-size: cover;
+    text-decoration-line: underline;
+    height: 100px;
+    background-image: url(../images/pexels-oleksandr-pidvalnyi-1227513.jpg);
+    display: flex;
+  }
+
+  #third{
+    background-image: url(../images/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg);
+    background-size: cover;
+  }
+
+  #four{
+    background-image: url(../images/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg);
+    background-size: cover;
+  }
+
+  #five{
+    background-image: url(../images/ME.jpg);
+    background-size: cover;
+  }
+
+  .boxes{
+    flex-direction: row;
+    flex: wrap;
+    padding: 25px;
+  }
+
+  .boxes::before{
+    opacity: 0.7;
+    content: "";
+  }
+
+  .boxes:hover {
+    opacity: 0.9;
+    cursor: grab;
+  }
+
+  @media screen and (max-width: 800px) {
+  
+}
+
+.slides{
+    display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: 3px dashed black;
+}
+
+.common {
+    width: 48%;
+    min-width: 40%;
+    height: 150px;
+    border: 5px solid;
+    display: flex;
+    margin-bottom: 5px;
+    align-items: flex-start;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    border: 3px solid black;
+  }
